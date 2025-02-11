@@ -5,9 +5,10 @@ This repository contains the **firmware** for the **limb control system** of a h
 ## Features  
 - **Servo Control** – Uses **PCA9685** PWM driver to control multiple servos.  
 - **Inertial Measurement Unit (IMU)** – Reads **MPU6050** data for motion tracking.  
-- **UART Communication** – Interfaces with external modules via serial communication.  
+- **UART Communication** – Interfaces with external modules via serial communication. 
 - **PWM & GPIO** – Handles various control signals for motor drivers.  
-- **ADC Support** – Reads analog sensor inputs for real-time feedback.  
+- **ADC Support** – Reads analog sensor inputs for real-time feedback.
+- **Wifi Connectivity** – For monitoring of **robot vitals** on a **web dashboard** and also for providing **manual control.** 
 
 ## Hardware Used  
 - **BeagleBone Black Rev C** (Single-board computer)  
